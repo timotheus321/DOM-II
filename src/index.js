@@ -65,6 +65,10 @@ buttons.forEach(button => {
     button.style.color = 'white';
   });
 });
+    //resize 
+    window.addEventListener('resize', function() {
+  console.log('Window size:', window.innerWidth, 'x', window.innerHeight);
+});
 
 }  
   
